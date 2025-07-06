@@ -17,9 +17,9 @@ public class FindIntersection {
 	System.out.println("The length of array(b) is " +lengthOfArray_b);
 	
 	//nested for loop
-	for (int i = 0; i < lengthOfArray_a; i++) {
-	for (int j = 0; j <lengthOfArray_b; j++) {
-		
+	for (int i = 0; i < lengthOfArray_a; i++) { 
+	for (int j = 0; j <lengthOfArray_b; j++) { 
+	
 		//Compare both array	
 		if (a[i] == b[j]) {
 				System.out.println(a[i]);
